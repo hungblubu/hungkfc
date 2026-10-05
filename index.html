@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Tiệm Gà Rán Của Hưn</title>
+<meta name="description" content="Chơi miễn phí, không cần tải: mở tiệm gà rán trên điện thoại, chiên gà giòn đúng lửa, thêm món kèm, bóp sốt cay, lên top bảng xếp hạng." />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="application-name" content="Tiệm Gà Rán" />
+<meta name="theme-color" content="#5A2334" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Tiệm Gà Rán Của Hưn" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:title" content="Tiệm Gà Rán Của Hưn - Mở tiệm gà rán của riêng bạn" />
+<meta property="og:description" content="Chiên gà đúng lửa cho khách, chiều khách khó tính, lên top bảng xếp hạng." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Gà Rán" />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" href="./icon-192.png" type="image/png" />
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Mali:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<noscript>
+  <div style="max-width:420px;margin:40px auto;padding:0 16px;font:16px/1.5 system-ui,sans-serif;color:#4A2A2A">
+    <h1>Tiệm Gà Rán Của Hưn</h1>
+    <p>Chơi miễn phí, không cần tải: mở tiệm gà rán trên điện thoại, chiên gà đúng lửa, thêm món kèm, bóp sốt cay, lên top bảng xếp hạng.</p>
+    <p>Bật JavaScript trong trình duyệt để vào tiệm.</p>
+  </div>
+</noscript>
+
+<!-- SVG defs chung -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gSteel" x1="0" x2="1">
+      <stop offset="0" stop-color="#9AA6AB"/>
+      <stop offset=".35" stop-color="#E9EEF0"/>
+      <stop offset=".6" stop-color="#C3CCD0"/>
+      <stop offset="1" stop-color="#8A969B"/>
+    </linearGradient>
+    <linearGradient id="gSauce" x1="0" x2="1">
+      <stop offset="0" stop-color="#B51A12"/>
+      <stop offset=".4" stop-color="#E83A2C"/>
+      <stop offset="1" stop-color="#A3170F"/>
+    </linearGradient>
+    <linearGradient id="gGolden" x1="0" x2="1">
+      <stop offset="0" stop-color="#F7C948"/>
+      <stop offset=".5" stop-color="#F0A21C"/>
+      <stop offset="1" stop-color="#B97E12"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div id="app">
+  <header id="top" hidden></header>
+  <main id="view"></main>
+</div>
+
+<div id="modal" hidden>
+  <div id="card" role="dialog" aria-modal="true"></div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
